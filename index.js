@@ -1,5 +1,7 @@
 console.log('js');
 const show1 = document.getElementById('one').addEventListener('click', function () {
+    const inputValue = document.getElementById('input').value;
+    console.log(inputValue);
     console.log('one');
 })
 const show2 = document.getElementById('two').addEventListener('click', function () {
